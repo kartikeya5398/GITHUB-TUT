@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: Alkatra;
+    src: url(/Alkatra-VariableFont_wght.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#bg{
+    height: 100%;
+    width: 100%;
+    background-image: url(/hanging\ tree.webp);
+    background-size: cover;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Alkatra;
+    font-weight: 300;
+    font-size: 190px;
+    color: #fff;
+    mix-blend-mode: difference;
+}
